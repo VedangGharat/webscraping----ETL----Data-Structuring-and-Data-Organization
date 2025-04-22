@@ -1,11 +1,11 @@
 # Folders
-save_extracted_data
-text_links
-to_dbt
-json_links
-jobs_scraped_files
-complete_data
-myenv
+save_extracted_data/
+text_links/
+to_dbt/
+json_links/
+jobs_scraped_files/
+complete_data/
+myenv/
 
 # Files
 htm_content.csv
