@@ -9,4 +9,5 @@ myenv/
 
 # Files
 htm_content.csv
-save_extracted_data.csvsave.txt
+save_extracted_data.csv
+save.txt
