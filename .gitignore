@@ -11,3 +11,4 @@ myenv/
 htm_content.csv
 save_extracted_data.csv
 save.txt
+.gitignore
