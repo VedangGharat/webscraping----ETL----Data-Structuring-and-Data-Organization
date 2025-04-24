@@ -1,0 +1,869 @@
+.Net
+.Net Charting tool
+.Net Framework
+J2EE
+Ab Initio
+Abstract classes and interfaces
+Access specifiers
+Accounting Software
+AccuRev
+Active X
+ActiveMQ
+Activiti
+ADO.NET
+Agile
+AI and machine learning
+AIF
+AIX
+AIX script
+AJAX
+Akka
+Algorithms
+ALM
+Alteryx
+Altova XML Spy
+Amazon Aurora Db
+Amazon Web Services
+Ambari
+AMI
+Analysis Studio
+Analytical Skills
+Android
+Angular 
+Angular JS
+ANSI SQL
+Ansible
+Ant
+Ant Build System
+ANT Script
+Anthill Pro
+Apache
+Apache Accumulo
+Apache ActiveMQ
+Apache ANT
+Apache Avalon
+Apache Avro
+Apache Axis
+Apache Camel
+Apache Click
+Apache Cocoon
+Apache Commons
+Apache CXF
+Apache Empire DB
+Apache Felix
+Apache Flume
+Apache Geronimo
+Apache Giraph
+Apache Hadoop
+Apache HBase
+Apache Hive
+Apache JackRabbit
+Apache Jena
+Apache Kafka
+Apache Log4j
+Apache Lucene
+Apache Mahout
+Apache Mesos
+Apache Mina
+Apache Nutch
+Apache OODT
+Apache Oozie
+Apache OpenNLP
+Apache PDFBox
+Apache Pig
+Apache Pivot
+Apache POI
+Apache Qpid
+Apache River (Jini)
+Apache Samza
+Apache Shiro
+Apache Sling
+Apache Solr
+Apache Spark
+Apache Storm
+Apache Struts
+Apache Tapestry
+Apache Tika
+Apache Tomcat
+Apache Uima
+Apache Velocity
+Apache VXQuery
+Apache web server
+Apache Wicket
+Apache Wink
+Apache Xerces
+Apache Zookeeper
+API designer
+Appache
+AppFuse
+Appium
+Applets
+APRIORI
+Arcsight
+ARIMA
+Artifactory
+Artificial Intelligence
+ASP
+Asp.net
+Aster
+Automated Marketing Software
+AutoSys
+AWS
+Azure
+Bachman
+Bamboo
+Barracuda
+BASE SAS
+Bash
+Bash Shell scripting
+Batch Script
+BCP
+BDD/ATDD
+Benchmarking
+Beyond Compare
+BIDS
+Big Data
+BioJava
+Birt
+BizTalk Server
+Blockchain
+Blogging
+BlueCove
+Blueprint Design
+BMC Tools
+BMS
+Bootstrap
+Bouncy Castle Cryptographic
+BPwin
+BTEQ
+BTS
+Budget Planning
+Bugzilla
+Build Forge
+Burningwave Core
+Business Objects
+C
+C#
+C++
+CA APM
+CA-11
+CA-7
+CA-AllFusion
+Calculating
+Cascading
+CASSANDRA
+CCM
+CDC
+CentOs
+CGI/Perl
+ChroPath
+CICS
+Cisco Nexpose
+CL
+Clear Case
+Clear quest
+ClearCase
+CLIST
+Cloud Formation
+Cloud Hub
+Cloud Proxy
+Cloud/SaaS Services
+Cloudera
+CloverETL
+Cluster Managers
+CMS
+Cobertura
+COBOL
+COBOL II
+COBOL/400
+CodeName One
+Cognos
+COGNOS 8 MR2
+Cognos BI
+Cognos Query
+Cognos Report Net
+Cold Fusion
+COM
+Compiling Statistics
+Computing
+Configuration
+Confluence
+Content Management Systems
+Cox Regression
+CRM
+Cron Tab
+Crystal Reports
+Crystal Reports 9.5
+CSP
+CSS
+CTE
+Cube Model
+Cucumber
+Customer Relationship Management
+Customer Support
+CVS
+Data Analytics
+Data Driven
+Data Lake
+Data Mining
+Data Modeling
+Data Modeling
+Data Profiler
+Database Design
+Database Management
+Database Reports
+Database Schemas
+Database Software
+Database Triggers
+DataStage
+DB Visualizer
+DB2
+DB2 Connect
+DB2 OLAP
+DB2/SQL
+DBCC
+DDL
+Debugging
+Decision tree
+Deeplearning4j
+Delphi
+Dependency injection
+Design Patterns
+Design Studio
+DHCP
+DHTML
+Digital Media
+Digital Photography
+DirectWebRemoting
+Distributed File Systems
+DML
+DMS
+DNS
+Docker
+Docker Swarm
+Dockers
+Documentation
+DOM
+DOS
+DOS Batch file
+dplyr
+Dreamwear
+Dreamweaver UltraDev 4
+Drools
+DTD
+DTS
+Dynamo DB
+Dynatrace
+EBS
+EC2
+Eclipse
+EclipseLink
+ECMAScript
+EHCache
+EIGRP
+EJB
+Ejml (Efficient Java Matrix Library)
+Elastic Cache
+ELK stack
+EMACS
+Embarcadero
+Embarcadero DB Artisan
+Embedded SQL
+EME
+Enterprise Resource Planning
+Entity Framework
+ER Assistance
+Eroom
+ERP
+ERStudio
+ERWIN
+Ethereal
+ETL
+ETL Process
+ETS
+Event Studio
+Exceptions Handling
+Fact Table
+FastLoad
+Feature Engineering
+Fedora
+File IO and serialization
+Flash
+Flat files
+fleXive
+Flume
+Focus
+FogBugz
+Foglight
+Fortran
+FP-Growth
+Framework Manager
+FreeMarker Template
+frequent pattern mining
+FrontPage
+FTP
+GCC
+Generics
+GeoApi
+GeoTools
+ggplot2
+GIT
+GITs
+GlassFish
+Google Cloud
+Google Gson
+Google Guava
+Google Guice
+Google Web Toolkit (GWT)
+Gradle
+Groovy
+H2O
+Hadoop
+Hadoop/Big Data
+Hardware
+Hardware Description Language
+Hardware Verification Tools and Techniques
+HBase
+HDFS
+HDFS2.0
+HDL
+Hibernate
+Hibernate-ORM
+HIS
+Hive
+HiveQL
+hmmlearn
+Hortonworks
+HP QTP
+HP-UX
+HSQLDB
+HTML
+HTML5
+HTTP
+HTTPS
+Hudson
+Hue
+Human Resources Software
+Hybrid
+IAM
+iBatis
+IBM AIX
+IBM DB2
+IBM Netezza
+IBM Rational ClearCase
+IBM SPSS
+IBM Tivoli
+IBM Web sphere
+IceFaces
+ICT (Information and Communications Technology)
+IDA Pro
+IDCAMS
+IDE
+IDQ
+IIS
+ILM
+Impromptu 6.0
+Impromptu Web Reports (IWR)
+IMS DB/DC
+Infinispan
+Informatica
+Informatica Power Center
+Information Management
+Information Security
+Information Technology
+Infragistics toolkit
+Inmon Methods
+IntelliJ
+Intellij IDEA
+Inventory Management
+iOS
+IPC
+IPlanet
+ISP
+IText
+IWR
+J2EE
+J2ME
+Jackson
+JAD Sessions
+Jasper Reports
+Java
+Java Astrodynamics Toolkit
+Java AWT
+Java Beans
+Java Collections Framework
+Java Media Framework
+Java Script
+java swing
+Java Topology suite
+Java virtual machine 
+JavaBeans
+Javascript
+JavaServer pages
+JavAssist
+JaxP
+JBOSS
+JBoss Seam
+jBPM
+JBuilder
+JCL
+JDBC
+JDom
+Jenkins
+Jersey
+Jetty
+JFreeChart
+JHipster
+JIRA
+JMeter
+JMonkeyEngine
+JMS
+JNDI
+JProfiler
+JQuery
+JRockit
+JRun
+JSF
+JSON
+JSoup
+JSP
+JSTL
+JUnit
+Jupyter Notebooks
+JVM
+K mean
+K nearest neighbor
+Kafka
+KANBAN
+Karma
+Kawa
+Kibana
+Kimball Methods
+Klockwork
+Knowledgecraft
+Korn shell
+Kubernetes
+LDAP
+Linear Regression
+LINQ
+Linux
+LiquiBase
+LISP
+Litespeed
+Load Runner
+Log4j
+Logistic Regression
+Logstash
+LU6.2
+Lua
+Lumira
+LWJGL
+Mac
+Machine Learning
+Mantis
+Mapping Designer
+Mapplet
+Marathon
+Matplotlib
+Maven
+Maya
+Media Query
+Medical Billing
+Medical Coding
+Memory Management
+Mesos
+MetaData model
+Metric Studio
+MFC
+MFS
+Micro Services
+Microfocus Cobol
+microservices
+Microsoft Dynamics CRM
+Microsoft Internet Information Server (IIS)
+ML
+ML Algorithms
+ML Lib
+MLOAD
+MMC
+Mockito
+Mongo DB
+MONGO_DB
+MongoDB
+MQ Series
+MS Azure
+MS BI
+MS Build
+MS SQL Analysis Manager
+MS Visio
+MS.NET
+MS-Access
+MS-DOS
+MS-FrontPage
+MS-Office
+MS-Visio
+MTS
+Mule ESB
+Multi Threading
+Multithreading and synchronization
+MUnit
+MVC
+My SQL
+MyBatis
+MySql
+NAGIOS
+Nagios
+ND4J
+Needs Analysis
+Nerual Networks
+NET FRAMEWORK
+Netbeans
+Netezza
+Netty
+Network Architecture
+Network Security
+Neuroph
+Nexus
+NFS
+NHibernate
+NLP
+NLTK
+Node JS
+npm
+NT 4.0
+Numeracy
+Numpy
+NUnit (Moq)
+OBIEE
+Object-oriented programming
+OC4J
+OCI
+ODBC
+Office Visio
+OLAP
+OLE DB
+OLTP
+OOAD
+OOP
+Oozie
+OpenCV
+OpenStack
+OpenXava
+Operating Systems
+OpsWorks
+Oracle
+Oracle 11g
+Oracle 9i
+Oracle Warehouse Builder
+Oracle Web logic
+Oracle WebLogic
+OrientDB
+ORMLite
+ORMS
+OS X
+OSPF
+pandas
+Payara Server
+PBR
+PeopleCode
+PeopleTools
+Perforce
+Performance Review
+Perl
+Perl Script
+Perl Scripting
+PHP
+Pig
+PL/1
+PL/SQL
+Plotly
+PL-SQL
+plyr
+POI
+polymer.js
+POM
+Postgre
+Postgres SQL
+Postgress
+Postman
+Power BI
+Power designer
+Power Exchange
+Power Mockito
+Power Play Transformer
+Power Play V7.0/6.6
+PowerCenter
+PowerDesigner
+PrimeFaces
+Productivity Software
+Project Planning
+Proligent
+Prolog
+Puppet
+Putty
+PVCS
+PyCharm
+PySpark
+Python
+QlikView
+QMF
+Qradar
+QTP
+Quality Assurance
+Quality Control
+Quantitative Reports
+Quantitative Research
+Quartz
+Query Software
+Query Studio
+Queryman
+Quest
+Quick Test
+Qwest Center
+Rabbit MQ
+RAD
+Rally
+Ralph Kimball 
+Random Forest
+Rational Clear Case
+Rational Rose
+RDBMS
+RDO
+RDS
+React
+React JS
+Red Hat Linux
+Red Hat Linux Shell Scripts
+Redistribution
+Redmine
+Reduction
+Remedy
+Report Studio
+Requisite Pro
+REST
+Restoration
+RESTUFUL
+REXX
+RIP
+rjson
+RMI
+Route Filtering
+Route53
+Ruby
+Ruby on Rails
+RUP
+S3
+SAP
+SAP BW
+SAP Crystal Reports
+SAS
+SAS E-Miner
+SAS GRAPH
+SAS IML
+SAS ODS
+SAS Visual Analytics
+SAS/ACCESS
+SAS/STATS
+Sax
+Scala
+Scheduling
+scikitlearn
+Scikit-learn
+scipy
+Scoop
+Scripting
+SCRUM
+Scrum Methodologies
+SDF II
+SDLC
+Seaborn
+Search Engine Optimization
+Security
+Selenium
+Selenium IDE
+SEO
+Serena & ServiceNow (SNOW)
+Serena Dimensions
+Serialization
+Servers
+Service-oriented architecture
+Servlet
+SFTP
+SharePoint
+SharePoint Designer
+Shell
+Shell Script
+Shell Scripting
+SIP
+SLF4J
+SME
+SnapLogic
+SNMP
+Snow-Flake Model
+Snowflake Schema
+SNS
+SOA
+SOAP
+Soap UI
+Social Media Platforms
+Solaris
+Solution Delivery
+SonarQube
+Sonography
+Spark Mllib for regression
+sparkling
+Splunk
+Spock
+Spotlight
+Spring
+Spring Boot
+Spring Integration
+Spring MVC
+Spring Roo
+Spring Security
+SPUFI
+Spyder
+SQL
+SQL Assistant
+SQL Loader
+SQL Plus
+SQL Server
+SQL Server
+SQLJ
+Sqoop
+SSAS
+SSIS
+SSRS
+Star Schema
+Star Team
+Statistical Analysis
+Statsmodels
+STL
+STLC
+Stored procedures
+Structural Analysis
+Structured System Analysis And Design (SSAD)
+Struts
+Struts Framework
+Sub netting
+Subject Matter Experts
+Subversion
+Sun OS
+Sun Solaris
+Sun Solaris Windows
+Susie Linux
+SVM
+SVN
+Swagger
+Swing
+Sybase
+Systems Analysis
+Tableau
+Task Delegation
+Task Management
+TCL/TK
+TCP/IP
+TDD
+Technical Documentation
+Technical Support
+Technology
+Telecommunications
+Teradata
+Teradata Studio
+Teradata V2R5
+Test Flight
+Test Relights
+Test-Driven Development
+Testing Tools
+TestNG
+TFS
+Thymeleaf
+tidal
+tidyr
+Tivoli
+TOAD
+Tomcat
+TPUMP
+Training
+Transformer v7.0/6.6
+Trello
+Triggers
+Trillium
+Tripwire
+Troubleshooting
+T-SQL
+Typescript
+Ubuntu
+uClinux
+UDB
+UDB 9.0
+UDDI
+uDeploy
+UDF
+UDP/IP
+Umbraco
+UML
+Unix
+Unix script
+Unix shell scripting
+Usability
+Vaadin
+VB
+VB .Net
+VB Macro
+VB Script
+VB.Net
+VBScript
+VC++
+Vertx
+Video Creation
+Visio
+Visual Basic
+Visual InterDev
+Visual Studio
+Visual Studio .Net
+VMware
+VOIP
+VPC
+VRaptor
+VS.Net
+VSAM
+vSphere
+V-sphere
+VSS
+VueJS
+Waterfall
+WCF
+Web Analytics
+Web forms
+Web logic
+web services
+Web Sphere
+WebSphere Application Server
+Wikis
+Win Forms
+Win SQL
+WinPE
+WinRunner
+Wireshark
+WMI
+Word2Vec
+WSAD
+X++
+Xcbl Messaging
+XCode
+XGBoost
+XHTML
+XML
+XML Parser DOM
+XML Spy
+XP
+XPath
+Xpediter
+XSL
+XSLT
+YAML
+YARN
+Zera
+ZKoss
+ZooKeeper

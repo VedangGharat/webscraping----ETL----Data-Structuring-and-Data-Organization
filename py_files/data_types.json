@@ -1,0 +1,32 @@
+{
+    "jobtypes":{
+        "Full-Time": ["direct placement","direct hire","full time","right to hire","perm","permanent","fulltime"],
+        "Part-Time": ["part-time"],
+        "Internship": ["internship","apprenticeship"],
+        "W2 - Permanent": [],
+        "W2 - Contract": ["contract w2","contract - w2"],
+        "1099-Contract": [],
+        "Contract to Hire": ["contract","temp to hire","contract-to-hire","contract","+mos","temp","temp to perm","temporary"],
+        "Need H1B": [],
+        "Hourly Employee": [],
+        "Contract Based": ["contract based","contractor"],
+        "Contract - Corp-to-Corp": ["contract corp-to-corp","accepts corp to corp applications","contract based","accepts corp to corp applications"],
+        "Contract - Independent": [],
+        "Contract to Hire - Corp-to-Corp": [],
+        "Contract to Hire - W2": ["right to hire"],
+        "Contract to Hire - Independent": [],
+        "other" :["freelance"]
+    },
+    "salarytypes": {
+        "Per Hour":["hourly","hour","hr","hrs","hours"],
+        "Per Day":["day","dy","daily","days"],
+        "Per Week":["weekly","week","weeks"],
+        "Per Month":["monthly","month","months"],
+        "Per Year":["yearly","per annum","year","yr","yrs","annual","years","annually"]
+
+    },
+    "workpermittypes":{
+        
+    }
+
+}
