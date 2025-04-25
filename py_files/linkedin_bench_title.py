@@ -8,6 +8,7 @@ import csv
 from datetime import datetime, timedelta, date
 import os
 from random import randint
+from config import linkedin_bench_title as l
 # from client_jobs_insert import client_read_csv_jobs
 # from job_id_fetch import get_client_jobid
 # from main import paths_to_folders
@@ -37,7 +38,7 @@ def setup_webdriver():
     options.add_argument('incognito')
     options.add_argument("--disable-notifications")
     options.add_argument("--start-maximized")
-    # options.add_argument('headless')  # Run in headless mode
+    options.add_argument('headless')  # Run in headless mode
     options.add_argument('--disable-blink-features=AutomationControlled')
     options.add_experimental_option("excludeSwitches", ["enable-automation"])
     options.add_experimental_option('useAutomationExtension', False)
@@ -176,9 +177,9 @@ def Linkedin(URL,csv_file_path, text_file_path):
 
 if __name__ == '__main__':
     try:
-        df_titles = pd.read_csv("/Users/vedanggharat/Movies/LinkedIn Jobs/Bs_title.csv")
-        csv_jobs_path = "/Users/vedanggharat/Movies/LinkedIn Jobs/jobs_scraped_files"
-        text_jobs_path = "/Users/vedanggharat/Movies/LinkedIn Jobs/text_links"
+        df_titles = pd.read_csv(l.df_titles)
+        csv_jobs_path = l.csv_jobs_path
+        text_jobs_path = l.text_jobs_path
         os.makedirs(csv_jobs_path, exist_ok=True)
         os.makedirs(text_jobs_path, exist_ok=True)
         

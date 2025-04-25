@@ -1,4 +1,5 @@
 import os
+import sys
 import json
 import requests
 from bs4 import BeautifulSoup
@@ -14,19 +15,20 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.action_chains import ActionChains
 import csv
+from config import extract_job_data as e
 from helper_function_for_scroll_more_for_job_link import scroll_to_element_and_click
 from helper_for_salary_range_type import get_salary_info
-from client_jobs_insert import client_read_csv_jobs
-from job_id_fetch import get_client_jobid,get_predata_joblink
-from main import paths_to_folders
-csv_jobs_path,log_file_path,sites_status_json,path_to_inputfiles = paths_to_folders()
-from main import paths_to_folders
-csv_jobs_path,log_file_path,sites_status_json,path_to_inputfiles = paths_to_folders()
-import logging
+# from client_jobs_insert import client_read_csv_jobs
+# from job_id_fetch import get_client_jobid,get_predata_joblink
+# from main import paths_to_folders
+# csv_jobs_path,log_file_path,sites_status_json,path_to_inputfiles = paths_to_folders()
+# from main import paths_to_folders
+# csv_jobs_path,log_file_path,sites_status_json,path_to_inputfiles = paths_to_folders()
+# import logging
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from fake_useragent import UserAgent
-
+from selenium import webdriver
 # Setup logging
 logging.basicConfig(level=logging.ERROR)
 logger = logging.getLogger()
@@ -35,7 +37,7 @@ logger = logging.getLogger()
 """ Saving Data to Json"""
 def save_to_json(data):
     # Define the directory path and file name for the single JSON file
-    json_jobs_path = "/Users/vedanggharat/Movies/LinkedIn Jobs/save_extracted_data"
+    json_jobs_path = e.json_jobs_path
     json_file_path = os.path.join(json_jobs_path, 'linkedin_jobs_data.json')
     
     # Create the directory if it does not exist
@@ -106,7 +108,7 @@ def complete_data(soup, link, job_role, db_joblinks,within_joblinks,joblink_list
     
     # print("job", job_role)
     try :
-        if link not in db_joblinks.keys() and link not in within_joblinks and link not in joblink_list_predata.keys():
+        if link:
             within_joblinks.append(link)
             ''' Get Company Name if available '''
             company_name = ""
@@ -244,46 +246,77 @@ def job_titles(soup):
     # print(job_title)
     return job_title
 
+def setup_webdriver():
+    """Configure and return a headless Chrome WebDriver with randomized user agent."""
+    ua = UserAgent()
+    options = Options()
+    options.add_argument(f'user-agent={ua.random}')
+    options.add_argument('--headless')
+    options.add_argument('--disable-gpu')
+    options.add_argument('--no-sandbox')
+    options.add_argument('--window-size=1920,1080')
+    options.add_argument('--disable-dev-shm-usage')
+    options.add_argument('--disable-blink-features=AutomationControlled')
+    options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    
+    driver = webdriver.Chrome(options=options)
+    driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+    return driver
 
-def main():
+def main(dir_name, csv_name):
+    driver = setup_webdriver()  # Initialize WebDriver
+    try:
+        directory = dir_name
+        most_recent_file = read_most_recent_jobs.find_most_recent_file(directory)
+        # print(f"Processing file: {most_recent_file}")
+        joblink_list_predata = ""
+        db_joblinks = ""
+        within_joblinks = []
+        # ... (remaining variable declarations remain unchanged)
+
+        within_joblinks = []
     
-    directory = '/Users/vedanggharat/Movies/LinkedIn Jobs/text_links'
-    most_recent_file = read_most_recent_jobs.find_most_recent_file(directory)
-    print(most_recent_file)
-    joblink_list_predata = get_predata_joblink()
-    db_joblinks = get_client_jobid('linkedin')
-    within_joblinks = []
     
-    
-    # Create the directory for CSV jobs if it doesn't exist
-    csv_jobs_path = "/Users/vedanggharat/Movies/LinkedIn Jobs/save_extracted_data"
-    os.makedirs(csv_jobs_path, exist_ok=True)
-    # Define the CSV file path with the current date and time
-    csv_file_path = os.path.join(csv_jobs_path, f'linkedin_jobs_data_{datetime.now().strftime("%Y-%m-%d_%H-%M")}.csv')
-    count = 1
-    if most_recent_file:
-        job_links = read_most_recent_jobs.read_job_links_from_txt(most_recent_file)
-        jobs_descriptions = set(job_links)
+        # Create the directory for CSV jobs if it doesn't exist
+        csv_jobs_path = csv_name
+        os.makedirs(csv_jobs_path, exist_ok=True)
+        # Define the CSV file path with the current date and time
+        csv_file_path = os.path.join(csv_jobs_path, f'linkedin_jobs_data_{datetime.now().strftime("%Y-%m-%d_%H-%M")}.csv')
+        count = 1       
         
-        for link in jobs_descriptions:
-            # print(link)
-            response = requests.get(link)
-            soup = BeautifulSoup(response.text, 'html.parser')
-            job_role = job_titles(soup)
-            print(" ")
-            print(job_role, count)
-            count += 1
-            print(" ")
-            within_joblinks = complete_data(soup, link, job_role, db_joblinks,within_joblinks,joblink_list_predata,csv_file_path)
-            file_save_path = os.path.join(csv_jobs_path,f'linkedin_jobs_2_{date.today().strftime("%Y-%m-%d")}.csv')
-            client_read_csv_jobs(file_save_path,report_name = 'linkedin')
-            joblink_list_predata = get_predata_joblink()
-    else:
-        print("No recent file to process.")
-        
-    # file_save_path = "/Users/vedanggharat/Movies/LinkedIn Jobs/save_extracted_data"
-    client_read_csv_jobs(csv_file_path,report_name = 'linkedin')
+        if most_recent_file:
+            job_links = read_most_recent_jobs.read_job_links_from_txt(most_recent_file)
+            # print(f"Found {len(job_links)} job links to process")
+            
+            for idx, link in enumerate(set(job_links), 1):
+                try:
+                    driver.get(link)
+                    time.sleep(2)  # Allow page load time
+                    
+                    # Get fully rendered page source
+                    soup = BeautifulSoup(driver.page_source, 'html.parser')
+                    job_role = job_titles(soup)
+                    
+                    # print(f"\nProcessing job {idx}: {job_role}")
+                    within_joblinks = complete_data(
+                        soup, link, job_role, 
+                        db_joblinks, within_joblinks,
+                        joblink_list_predata, csv_file_path
+                    )
+                    
+                except Exception as e:
+                    logger.error(f"Error processing {link}: {str(e)}")
+                    continue
+
+            # print(f"\n{'='*50}\nFinished processing {len(job_links)} jobs")
+        else:
+            print("No recent file found for processing")
+            
+    finally:
+        driver.quit()  # Ensure clean shutdown
+        print("WebDriver session closed")
+
 
 if __name__ == "__main__":
-    main()
+    main(e.text_links, e.saved_extracted_data)
 

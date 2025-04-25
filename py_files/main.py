@@ -7,10 +7,7 @@ import json
 
 def get_secret_keys():
     mysql_secret_keys_connection = mysql.connector.connect(
-        host = "65.109.71.75",
-        username = "pyth_db_cred",
-        password = "6HzXou8t?973g@768n",
-        database= "pyth_db_cred",
+
     )
     cursor = mysql_secret_keys_connection.cursor()
     get_cred = "SELECT id,name,data,status,source FROM pyth_db_cred.jnp_credentials"
